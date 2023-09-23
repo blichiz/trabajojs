@@ -1,58 +1,58 @@
-.title-products{
-    font-weight: lighter;
-    text-align: center;
-    margin: 10px 0 30px 0;
+.title-products {
+  font-weight: lighter;
+  text-align: center;
+  margin: 10px 0 30px 0;
 }
-.product-box{
-    text-align: center;
-    color: black; 
-    text-decoration: none;
-}
-
-a:hover{
-    color: var(--color-primary-dark);
-    text-decoration: none;
-    cursor:default;
+.product-box {
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
-.product-box img{
-    transition: all .5s ease;
+a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  cursor: default;
 }
 
-.product-box:hover img{
-    transform: scale(1.04);
+.product-box img {
+  transition: all 0.5s ease;
 }
 
-.product-box h3{
-    font-size: 14px;
-    font-weight: normal;
-    margin: 4px;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+.product-box:hover img {
+  transform: scale(1.04);
 }
 
-.product-box .offer{
-    color: red;
-    text-transform: uppercase;
-    font-weight: bold;
+.product-box h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 4px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
-.product-box .offer.hidden{
-    visibility: hidden;
+.product-box .offer {
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.product-box strong del{
-    font-weight: normal;
-    font-size: 14px;
-    margin-bottom: 5px;
+.product-box .offer.hidden {
+  visibility: hidden;
 }
 
-.product-box .price{
-    font-size: 18px;
+.product-box strong del {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
-#boton{
+
+.product-box .price {
+  font-size: 18px;
+}
+#boton {
   border-radius: 12px;
   box-shadow: 0px 2px 2px #666666;
   font-family: Arial;

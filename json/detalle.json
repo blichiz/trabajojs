@@ -7,68 +7,68 @@
     "precio": 29.98,
     "puntuacion": "*****"
   },
-    {
-      "id": "02",
-      "descripcion": "Bulldog - Si Yo!",
-      "imagen": "img/producto2.jpg",
-      "detalle": "El disco 'Si Yo!' de Bulldog es una explosión de punk rock en su máxima expresión. Las letras llenas de actitud y la energía desbordante de las canciones hacen de este álbum una experiencia intensa. Con un toque de humor y crítica social, Bulldog entrega un disco inolvidable.",
-      "precio": 35.98,
-      "puntuacion": "*****"
-    },
-    {
-      "id": "03",
-      "descripcion": "Eterna Inocencia - Las Palabras y Los Ríos",
-      "imagen": "img/producto3.webp",
-      "detalle": "Eterna Inocencia, una de las bandas más influyentes en la escena hardcore punk de Argentina, presenta 'Las Palabras y Los Ríos'. Este álbum es un viaje emocional con letras profundas y poderosos acordes. Cada canción es una reflexión sobre la vida y la sociedad.",
-      "precio": 27.98,
-      "puntuacion": "*****"
-    },
-    {
-      "id": "04",
-      "descripcion": "La Renga - Esquivando Charcos",
-      "imagen": "img/producto4.jpg",
-      "detalle": "El álbum 'Esquivando Charcos' de La Renga es una joya del rock argentino. Con su característico sonido crudo y letras introspectivas, este disco es un viaje emocional. La Renga demuestra su habilidad para conectar con el público a través de sus canciones sinceras.",
-      "precio": 23.99,
-      "puntuacion": "*****"
-    },
-    {
-      "id": "05",
-      "descripcion": "Queen - Queen II",
-      "imagen": "img/producto5.jpg",
-      "detalle": "Queen II es un clásico atemporal de la legendaria banda Queen. Este álbum muestra la versatilidad de la banda, desde baladas emotivas hasta himnos de rock puro. Las armonías vocales inigualables de Freddie Mercury se destacan en todo el disco.",
-      "precio": 41.98,
-      "puntuacion": "*****"
-    },
-    {
-      "id": "06",
-      "descripcion": "Pink Floyd - The Dark Side of the Moon",
-      "imagen": "img/producto6.jpg",
-      "detalle": "Considerado uno de los mejores álbumes de la historia, 'The Dark Side of the Moon' de Pink Floyd es una obra maestra del rock progresivo. Con una narrativa sonora única, este álbum te sumerge en un viaje psicodélico a través de temas universales como la vida, la muerte y la locura.",
-      "precio": 45.49,
-      "puntuacion": "*****"
-    },
-    {
-      "id": "07",
-      "descripcion": "Iron Maiden - Killers",
-      "imagen": "img/producto7.jpg",
-      "detalle": "El álbum 'Killers' de Iron Maiden es una muestra del poder del heavy metal británico. Con letras épicas y guitarras frenéticas, la banda entrega un disco que es un homenaje a la velocidad y la pasión por la música. Cada canción es un himno para los amantes del metal.",
-      "precio": 32.48,
-      "puntuacion": "*****"
-    },
-    {
-      "id": "08",
-      "descripcion": "Nirvana - In Utero",
-      "imagen": "img/producto8.jpg",
-      "detalle": "Nirvana nos presenta 'In Utero', un álbum que captura la intensidad y la angustia de la década de los 90. Con letras personales y un sonido crudo, Kurt Cobain y compañía entregan un testimonio de la lucha interna y la expresión artística en su máxima expresión.",
-      "precio": 45.48,
-      "puntuacion": "*****"
-    },
-    {
-      "id": "09",
-      "descripcion": "Ramones - Acid Eaters",
-      "imagen": "img/producto9.jpg",
-      "detalle": "Los Ramones nos sorprenden con 'Acid Eaters', un álbum en el que la banda rinde homenaje a sus influencias musicales al hacer versiones de canciones clásicas. Con su estilo punk característico, los Ramones le dan un giro único a estas canciones, manteniendo su energía inconfundible.",
-      "precio": 23.99,
-      "puntuacion": "*****"
-    }
-  ]
+  {
+    "id": "02",
+    "descripcion": "Bulldog - Si Yo!",
+    "imagen": "img/producto2.jpg",
+    "detalle": "El disco 'Si Yo!' de Bulldog es una explosión de punk rock en su máxima expresión. Las letras llenas de actitud y la energía desbordante de las canciones hacen de este álbum una experiencia intensa. Con un toque de humor y crítica social, Bulldog entrega un disco inolvidable.",
+    "precio": 35.98,
+    "puntuacion": "*****"
+  },
+  {
+    "id": "03",
+    "descripcion": "Eterna Inocencia - Las Palabras y Los Ríos",
+    "imagen": "img/producto3.webp",
+    "detalle": "Eterna Inocencia, una de las bandas más influyentes en la escena hardcore punk de Argentina, presenta 'Las Palabras y Los Ríos'. Este álbum es un viaje emocional con letras profundas y poderosos acordes. Cada canción es una reflexión sobre la vida y la sociedad.",
+    "precio": 27.98,
+    "puntuacion": "*****"
+  },
+  {
+    "id": "04",
+    "descripcion": "La Renga - Esquivando Charcos",
+    "imagen": "img/producto4.jpg",
+    "detalle": "El álbum 'Esquivando Charcos' de La Renga es una joya del rock argentino. Con su característico sonido crudo y letras introspectivas, este disco es un viaje emocional. La Renga demuestra su habilidad para conectar con el público a través de sus canciones sinceras.",
+    "precio": 23.99,
+    "puntuacion": "*****"
+  },
+  {
+    "id": "05",
+    "descripcion": "Queen - Queen II",
+    "imagen": "img/producto5.jpg",
+    "detalle": "Queen II es un clásico atemporal de la legendaria banda Queen. Este álbum muestra la versatilidad de la banda, desde baladas emotivas hasta himnos de rock puro. Las armonías vocales inigualables de Freddie Mercury se destacan en todo el disco.",
+    "precio": 41.98,
+    "puntuacion": "*****"
+  },
+  {
+    "id": "06",
+    "descripcion": "Pink Floyd - The Dark Side of the Moon",
+    "imagen": "img/producto6.jpg",
+    "detalle": "Considerado uno de los mejores álbumes de la historia, 'The Dark Side of the Moon' de Pink Floyd es una obra maestra del rock progresivo. Con una narrativa sonora única, este álbum te sumerge en un viaje psicodélico a través de temas universales como la vida, la muerte y la locura.",
+    "precio": 45.49,
+    "puntuacion": "*****"
+  },
+  {
+    "id": "07",
+    "descripcion": "Iron Maiden - Killers",
+    "imagen": "img/producto7.jpg",
+    "detalle": "El álbum 'Killers' de Iron Maiden es una muestra del poder del heavy metal británico. Con letras épicas y guitarras frenéticas, la banda entrega un disco que es un homenaje a la velocidad y la pasión por la música. Cada canción es un himno para los amantes del metal.",
+    "precio": 32.48,
+    "puntuacion": "*****"
+  },
+  {
+    "id": "08",
+    "descripcion": "Nirvana - In Utero",
+    "imagen": "img/producto8.jpg",
+    "detalle": "Nirvana nos presenta 'In Utero', un álbum que captura la intensidad y la angustia de la década de los 90. Con letras personales y un sonido crudo, Kurt Cobain y compañía entregan un testimonio de la lucha interna y la expresión artística en su máxima expresión.",
+    "precio": 45.48,
+    "puntuacion": "*****"
+  },
+  {
+    "id": "09",
+    "descripcion": "Ramones - Acid Eaters",
+    "imagen": "img/producto9.jpg",
+    "detalle": "Los Ramones nos sorprenden con 'Acid Eaters', un álbum en el que la banda rinde homenaje a sus influencias musicales al hacer versiones de canciones clásicas. Con su estilo punk característico, los Ramones le dan un giro único a estas canciones, manteniendo su energía inconfundible.",
+    "precio": 23.99,
+    "puntuacion": "*****"
+  }
+]
