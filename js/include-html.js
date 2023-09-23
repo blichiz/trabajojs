@@ -26,3 +26,54 @@ function includeHTML() {
     }
   };
   includeHTML();
+  const productosContainer = document.getElementById('productos-container');
+
+fetch('productos.json')
+  .then((response) => response.json())
+  .then((data) => {
+    data.forEach((producto, index) => {
+      const productoHTML = `
+        <div class="producto">
+          <h2>${producto.codigo}</h2>
+          <p>${producto.descripcion}</p>
+          <button onclick="verDetalle(${index})">Ver Detalle</button>
+        </div>
+      `;
+      productosContainer.innerHTML += productoHTML;
+    });
+  });
+  function verDetalle(index) {
+    const productos = JSON.parse(localStorage.getItem('productos')) || [];
+    productos.push(index);
+    localStorage.setItem('productos', JSON.stringify(productos));
+    window.location.href = 'detalle.html';
+  }
+  const detalleContainer = document.getElementById('detalle-container');
+
+const productos = JSON.parse(localStorage.getItem('productos'));
+
+if (productos && productos.length > 0) {
+  const selectedProduct = productos[productos.length - 1]; // El último producto seleccionado
+  fetch('productos.json')
+    .then((response) => response.json())
+    .then((data) => {
+      const producto = data[selectedProduct];
+      const detalleHTML = `
+        <h2>${producto.codigo}</h2>
+        <p>${producto.descripcion}</p>
+        <img src="${producto.imagen}" alt="${producto.codigo}">
+        <p>${producto.detalle}</p>
+        <p>Precio: $${producto.precio}</p>
+        <p>Puntuación: ${producto.puntuacion}</p>
+        <button onclick="volverALista()">Volver a la Lista</button>
+      `;
+      detalleContainer.innerHTML = detalleHTML;
+    });
+} else {
+  detalleContainer.innerHTML = '<p>No se ha seleccionado ningún producto o servicio.</p>';
+}
+
+function volverALista() {
+  localStorage.removeItem('productos');
+  window.location.href = 'index.html';
+}
