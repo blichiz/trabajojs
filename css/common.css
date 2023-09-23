@@ -7,13 +7,3 @@ html, body{
     margin: 0;
     padding: 0;
 }
-
-a{
-    color: var(--color-gray);
-    text-decoration: none;
-}
-
-a:hover{
-    color: var(--color-primary-dark);
-    text-decoration: underline;
-}
