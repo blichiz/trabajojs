@@ -1,4 +1,4 @@
-fetch("detalle.json")
+fetch("./detalle.json")
 .then((respuesta) => respuesta.json())
 .then((datos) => localStorage.setItem("detalle", JSON.stringify(datos)));
 // Agregar evento de clic al botón "Detalle" en cada producto
