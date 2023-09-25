@@ -12,11 +12,11 @@
             
             // Crear elementos HTML para mostrar los detalles del producto seleccionado
             const detalleHTML =
-                `<h3>${productoSeleccionado.descripcion}</h3>
-                <img src="${productoSeleccionado.imagen}" alt="${productoSeleccionado.descripcion}" />
-                <p>${productoSeleccionado.detalle}</p>
-                <p>Precio: $${productoSeleccionado.precio}</p>
-                <p>Puntuación: ${productoSeleccionado.puntuacion}</p>
+                `<h3 class= titulo-producto>${productoSeleccionado.descripcion}</h3>
+                <img class= col-xs-12 col-s-12 col-m-8 col-l-6 src="${productoSeleccionado.imagen}" alt="${productoSeleccionado.descripcion}" />
+                <p class= detail>${productoSeleccionado.detalle}</p>
+                <p class= precio>Precio: $${productoSeleccionado.precio}</p>
+                <p class= puntuacion>Puntuación: ${productoSeleccionado.puntuacion}</p>
             `;
             
             detalleProductoElement.innerHTML = detalleHTML;

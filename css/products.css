@@ -62,3 +62,40 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+/*descripcion de productos en pagina detalle*/
+
+.titulo-producto {
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 10px;
+}
+.detail {
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.precio {
+  color: red;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.puntuacion {
+  color: gray;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-color: #000000;
+}
+#volver {
+  text-align: center;
+  color: blueviolet;
+  cursor: pointer;
+  text-decoration: none !important;
+}
